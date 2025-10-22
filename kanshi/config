@@ -1,8 +1,3 @@
-# Fallback: laptop only (when no external monitor)
-profile {
-    output eDP-1 enable
-}
-
 # HDMI outputs
 profile {
     output HDMI-A-1 enable
@@ -50,4 +45,9 @@ profile {
 profile {
     output VGA-1 enable
     output eDP-1 disable
+}
+
+# Fallback: laptop only (when no external monitor)
+profile {
+    output eDP-1 enable
 }
